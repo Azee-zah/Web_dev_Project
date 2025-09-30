@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+:root{
+    --primary_colour: #f37474;
+    --text: #ffffffe5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Staff Dashboard */
+.staff_container{
+    padding: 3rem;
+     background-color: rgb(223, 218, 210);
+     min-height: 100vh;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px 1fr));
+    gap: 1rem;
+}
+.dessert{
+    width: 100%;
+}
+.cakes{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--primary_colour);
+    border-radius: 1rem;
+    color: var(--primary_colour);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.cakes .add{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    
+    
+}
+.cakes .price_input input{
+    border: none;
+    width: 80px;
+    border-bottom: 0.3rem solid var(--primary_colour);
+    background-color: transparent;
+    outline: none;
+}
+.cakes .price_input button{
+    background-color: var(--primary_colour);
+    color: var(--text);
+    border: none;
+    width: 5rem;
+    border-radius: 0.2rem;
+}
+.cakes img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+.landing{
+    display: flex;
+    justify-content: space-between;
+}
+.landing div{
+   
+    width: 100%;
+    padding: 1rem;
+}
+/* .landing a{
+    display: block;
+    width: 100%;
+     background-color: red;
+     height: 3rem;
+} */
