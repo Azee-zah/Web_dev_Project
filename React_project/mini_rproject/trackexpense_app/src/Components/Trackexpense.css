@@ -1,0 +1,113 @@
+.general {
+    background-color: rgb(49, 100, 20);
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white
+}
+.title {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.date{
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.des {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.form-btn{
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    color: white;
+    background-color:rgb(35, 73, 9);
+    cursor: pointer;
+    font-size: 15px;
+}
+.form-btn:hover {
+    background-color: rgb(118, 192, 99);
+}
+
+.select{
+    border-radius: 6px;
+    color: rgb(35, 73, 9);
+}
+
+.cat-filter {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.expense-list {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px;
+    color: rgb(35, 73, 9);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.expense{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+.item-delete{
+    background-color: red;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+.item-delete:hover{
+    background-color: rgb(141, 82, 82);
+}
+
+.Stats {
+    background: white;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px;
+    color: rgb(35, 73, 9);
+    font-family: 'Courier New', Courier, monospace;
+}
+.empty-list {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+@media(max-width:588px){
+    .form{
+        flex-direction: column;
+    }
+}
